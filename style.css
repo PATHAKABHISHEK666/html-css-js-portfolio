@@ -86,22 +86,27 @@ a:hover {
 }
 
 .menu-links {
-  position: absolute;
-  top: 15%;
-  right: 0;
-  background-color: white;
-  width: fit-content;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3 ease-in-out;
-  box-shadow: -5px 7px 9px 0px rgba(0,0,0,0.64);
+      position: absolute;
+    top: 12%;
+    right: 4px;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    border-radius: 23px;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+    box-shadow: -5px 7px 9px 0px rgba(0,0,0,0.64);
+  border: 1px solid #00000045;
+}
+
+
 }
 
 .menu-links a {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: black;
   transition: all 0.3 ease-in-out;
   text-decoration: none;
