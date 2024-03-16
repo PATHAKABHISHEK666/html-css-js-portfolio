@@ -95,16 +95,16 @@ a:hover {
     border-radius: 23px;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
-    box-shadow: -5px 7px 9px 0px rgba(0,0,0,0.64);
-  border: 1px solid #00000045;
+    
 }
 
 
 }
 
 .menu-links a {
+  font:1.2rem;
   display: block;
-  padding: 10px;
+  padding: 4px;
   text-align: center;
   font-size: 1.2rem;
   color: black;
@@ -117,6 +117,8 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
+  box-shadow: -5px 7px 9px 0px rgba(0,0,0,0.64);
+  border: 1px solid #00000045;
 }
 
 .hamburger-icon.open span:first-child {
