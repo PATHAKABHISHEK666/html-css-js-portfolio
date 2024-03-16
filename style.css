@@ -94,6 +94,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  box-shadow: -5px 7px 9px 0px rgba(0,0,0,0.64);
 }
 
 .menu-links a {
